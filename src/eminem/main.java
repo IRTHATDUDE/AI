@@ -53,8 +53,8 @@ public class main extends JavaPlugin implements Listener {
 
 		String[] checker = { "hi", "hello", "potato", "wassup?" };
 		String[] responses = { "hello", "hi", "eww", "nm, hbu?" };
-		
-        String[] topic = { "sports?", "drugs?", "politics?", "the world?", "god?", "you tell me" };
+
+		String[] topic = { "sports?", "drugs?", "politics?", "the world?", "god?", "you tell me" };
 		String[] potato = { "I killed them all", "No one ever existed", "they all got eaten",
 				"Noah's ark never survived", "cause fuck that's why" };
 
@@ -70,7 +70,7 @@ public class main extends JavaPlugin implements Listener {
 				}, 20);
 				break;
 			}
-			if (message.contains("how") && message.contains("you")) {
+			if (message.contains("how are you")) {
 				Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
 					public void run() {
 						getServer().broadcastMessage(namerino + " I'm fine, how are you?");
@@ -259,6 +259,72 @@ public class main extends JavaPlugin implements Listener {
 				Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
 					public void run() {
 						getServer().broadcastMessage(namerino + "Me either");
+
+					}
+
+				}, 20);
+				break;
+			}
+			if (message.contains("sports")) {
+				Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
+					public void run() {
+						getServer().broadcastMessage(namerino + "whats your favorite?");
+
+					}
+
+				}, 20);
+				break;
+			}if (message.contains("anal")) {
+				Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
+					public void run() {
+						getServer().broadcastMessage(namerino + "is shitty");
+
+					}
+
+				}, 20);
+				break;
+			}if (message.contains("whats on your mind")) {
+				Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
+					public void run() {
+						getServer().broadcastMessage(namerino + "i haven't thought since 50% off at walmart for lube");
+
+					}
+
+				}, 20);
+				break;
+			}if (message.contains("have you ever been in love")) {
+				Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
+					public void run() {
+						getServer().broadcastMessage(namerino + "once");
+
+					}
+
+				}, 20);
+				break;
+			}if (message.contains("with who")) {
+				Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
+					public void run() {
+						getServer().broadcastMessage(namerino + "a beautiful woman");
+
+					}
+
+				}, 20);
+				break;
+			}
+			if (message.contains("what was her name")) {
+				Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
+					public void run() {
+						getServer().broadcastMessage(namerino + "If i told you, I would have to kill you");
+
+					}
+
+				}, 20);
+				break;
+			}
+			if (message.contains("thats mean") || message.contains("rude") || message.contains("thats fucked up")) {
+				Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
+					public void run() {
+						getServer().broadcastMessage(namerino + "and your point being?");
 
 					}
 
