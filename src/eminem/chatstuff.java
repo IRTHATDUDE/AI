@@ -40,6 +40,16 @@ public class chatstuff {
     //standard what is up
     static String[] up = { "the sky", "if i told you would you touch it", "my iron golem", "not much", "a falling creeper", "that enderdragon", "im not good at this", "idk, whats up with you" };
 
+	
+	//standard idk
+	static String[] idk = { "what do you mean you dont know", "ugh, why do i even try", "well could you think of a reason please", "you remind me of my pet hamaster"};
+
+	//standard no
+	static String[] no = { "yes", "ok", " chill fam", "why not"};
+
+	//standard yes
+	static String[] yes = { "good", "ok then", "fine", };
+
 
 
 }

@@ -428,6 +428,39 @@ public class main extends JavaPlugin implements Listener {
 				}, 20);
 				break;
 			}
+			if (message.contains("nah") || message.contains("no") || message.contains("nope")) {
+				Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
+					public void run() {
+						int value = rand.nextInt(chatstuff.no.length);
+						getServer().broadcastMessage(namerino + chatstuff.no[value]);
+
+					}
+
+				}, 20);
+				break;
+			}
+			if (message.contains("yes") || message.contains("yea") || message.contains("yup") || message.contains("mhm")) {
+				Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
+					public void run() {
+						int value = rand.nextInt(chatstuff.yes.length);
+						getServer().broadcastMessage(namerino + chatstuff.yes[value]);
+
+					}
+
+				}, 20);
+				break;
+			}
+			if (message.contains("idk") || message.contains("i dont know") || message.contains("i dunno") || message.contains("beats me")) {
+				Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
+					public void run() {
+						int value = rand.nextInt(chatstuff.no.length);
+						getServer().broadcastMessage(namerino + chatstuff.no[value]);
+
+					}
+
+				}, 20);
+				break;
+			}
 			final int asd = i;
 			if (message.equals(checker[i])) {
 				Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
@@ -495,6 +528,4 @@ public class main extends JavaPlugin implements Listener {
 		} catch (Exception ex) {
 
 		}
-
-	}
-}
+}}
