@@ -49,7 +49,12 @@ public class chatstuff {
 
 	//standard yes
 	static String[] yes = { "good", "ok then", "fine", };
-
+	
+	//standard emotional harsh response
+	static String[] addict = { "That's what your mom said after i jizzed", "I couldn't have said it better myself.", "YOU ARE CRUEL", "Well maybe, but then again, maybe not.","That has bothered me for a long time.", "I have been accused of too much thinking and not enough feeling.", "I certainly do things without thinking and disregard everyone else's point of view.", "That too.", "I probably put others down more than I should.", "Sometimes I say mean things.", "Yep.  I always behave in socially unacceptable ways.", "I think that myself sometimes", "I'll go along with that.  Sounds fine to me.", "Sometimes I think I was born brainless.", "I feel like that myself sometimes." };
+	
+	//standard emotional luagh response
+	static String[] lol = { "lol", "ouo", "ono", "omg", "ctfu", "im dying", "aye fam"};
 
 
 }

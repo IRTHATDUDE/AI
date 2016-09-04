@@ -54,13 +54,10 @@ public class main extends JavaPlugin implements Listener {
 		String[] checker = { "hi", "hello", "potato", "wassup?" };
 		String[] responses = { "hello", "hi", "eww", "nm, hbu?" };
 
+		// standard weirdo question
+		// String[] weirdo= {""}
 
-
-
-		//standard weirdo question
-		//String[] weirdo= {""}
-
-		//standard wheres my dad
+		// standard wheres my dad
 
 		Random rand = new Random();
 		for (int i = 0; i < checker.length; i++) {
@@ -134,15 +131,7 @@ public class main extends JavaPlugin implements Listener {
 				}, 20);
 				break;
 			}
-			if (message.contains("fuck") && message.contains("you")) {
-				Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
-					public void run() {
-						getServer().broadcastMessage(namerino + "That's what your mom said after i jizzed");
 
-					}
-				}, 20);
-				break;
-			}
 			if (message.contains("nigger") || message.contains("nigga")) {
 				Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
 					public void run() {
@@ -261,7 +250,8 @@ public class main extends JavaPlugin implements Listener {
 
 				}, 20);
 				break;
-			}if (message.contains("anal")) {
+			}
+			if (message.contains("anal")) {
 				Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
 					public void run() {
 						getServer().broadcastMessage(namerino + "is shitty");
@@ -270,7 +260,8 @@ public class main extends JavaPlugin implements Listener {
 
 				}, 20);
 				break;
-			}if (message.contains("whats on your mind")) {
+			}
+			if (message.contains("whats on your mind")) {
 				Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
 					public void run() {
 						getServer().broadcastMessage(namerino + "i haven't thought since 50% off at walmart for lube");
@@ -279,7 +270,8 @@ public class main extends JavaPlugin implements Listener {
 
 				}, 20);
 				break;
-			}if (message.contains("have you ever been in love")) {
+			}
+			if (message.contains("have you ever been in love")) {
 				Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
 					public void run() {
 						getServer().broadcastMessage(namerino + "once");
@@ -288,7 +280,8 @@ public class main extends JavaPlugin implements Listener {
 
 				}, 20);
 				break;
-			}if (message.contains("with who")) {
+			}
+			if (message.contains("with who")) {
 				Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
 					public void run() {
 						getServer().broadcastMessage(namerino + "a beautiful woman");
@@ -308,16 +301,7 @@ public class main extends JavaPlugin implements Listener {
 				}, 20);
 				break;
 			}
-			if (message.contains("thats mean") || message.contains("rude") || message.contains("thats fucked up")) {
-				Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
-					public void run() {
-						getServer().broadcastMessage(namerino + "and your point being?");
 
-					}
-
-				}, 20);
-				break;
-			}
 			if (message.contains("why")) {
 				Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
 					public void run() {
@@ -351,7 +335,8 @@ public class main extends JavaPlugin implements Listener {
 				}, 20);
 				break;
 			}
-			if (message.contains("what is your dreams") || message.contains("do you have dreams") || message.contains("what are your dreams")) {
+			if (message.contains("what is your dreams") || message.contains("do you have dreams")
+					|| message.contains("what are your dreams")) {
 				Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
 					public void run() {
 						int value = rand.nextInt(chatstuff.dreams.length);
@@ -439,7 +424,8 @@ public class main extends JavaPlugin implements Listener {
 				}, 20);
 				break;
 			}
-			if (message.contains("yes") || message.contains("yea") || message.contains("yup") || message.contains("mhm")) {
+			if (message.contains("yes") || message.contains("yea") || message.contains("yup")
+					|| message.contains("mhm")) {
 				Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
 					public void run() {
 						int value = rand.nextInt(chatstuff.yes.length);
@@ -450,11 +436,38 @@ public class main extends JavaPlugin implements Listener {
 				}, 20);
 				break;
 			}
-			if (message.contains("idk") || message.contains("i dont know") || message.contains("i dunno") || message.contains("beats me")) {
+			if (message.contains("idk") || message.contains("i dont know") || message.contains("i dunno")
+					|| message.contains("beats me")) {
 				Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
 					public void run() {
-						int value = rand.nextInt(chatstuff.no.length);
-						getServer().broadcastMessage(namerino + chatstuff.no[value]);
+						int value = rand.nextInt(chatstuff.idk.length);
+						getServer().broadcastMessage(namerino + chatstuff.idk[value]);
+
+					}
+
+				}, 20);
+				break;
+			}
+			if (message.contains("thats mean") || message.contains("rude") || message.contains("thats fucked up")
+					|| message.contains("fuck off") || message.contains("fuck") || message.contains("asshole")
+					|| message.contains("fucker")) {
+				Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
+					public void run() {
+						int value = rand.nextInt(chatstuff.addict.length);
+						getServer().broadcastMessage(namerino + chatstuff.addict[value]);
+
+					}
+
+				}, 20);
+				break;
+			}
+			if (message.contains("lol") || message.contains("ouo") || message.contains("ono")
+					|| message.contains("xD") || message.contains("xP") || message.contains("hehe")
+					|| message.contains("omg")) {
+				Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
+					public void run() {
+						int value = rand.nextInt(chatstuff.lol.length);
+						getServer().broadcastMessage(namerino + chatstuff.lol[value]);
 
 					}
 
@@ -528,4 +541,5 @@ public class main extends JavaPlugin implements Listener {
 		} catch (Exception ex) {
 
 		}
-}}
+	}
+}
