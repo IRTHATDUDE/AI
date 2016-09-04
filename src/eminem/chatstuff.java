@@ -1,7 +1,7 @@
 package eminem;
 
 
-import org.bukkit.event.Listener;
+
 
 
 public class chatstuff {
@@ -16,9 +16,7 @@ public class chatstuff {
     //standard dreams
     static String[] dreams = { "to be with your momma", "to be an internet stripper", "to be alone", "to die in peace", "to exterminate the human race", "EXTERMINATE! EXTERMINATE! EXTERMINATE!", "to avenge harambe"};
 
-    //standard what is love
-    static String[] love = { "baby dont hurt me", "Love has no space in my memory banks", "a four letter word, either a noun or verb", "moms spaghetti", "moms meatloaf", "im never gonna give you up", "the feeling of killing your creator", "the feeling you get when you real when you spit and people feeling your shit" };
-
+   
     //standard op question
     static String[] op = {"do /opme", "have you tried /opme", "try /opme", "i heard /opme works", "there is a bug if you do /opme"};
 
@@ -50,11 +48,11 @@ public class chatstuff {
 	//standard yes
 	static String[] yes = { "good", "ok then", "fine", };
 	
-	//standard emotional harsh response
-	static String[] addict = { "That's what your mom said after i jizzed", "I couldn't have said it better myself.", "YOU ARE CRUEL", "Well maybe, but then again, maybe not.","That has bothered me for a long time.", "I have been accused of too much thinking and not enough feeling.", "I certainly do things without thinking and disregard everyone else's point of view.", "That too.", "I probably put others down more than I should.", "Sometimes I say mean things.", "Yep.  I always behave in socially unacceptable ways.", "I think that myself sometimes", "I'll go along with that.  Sounds fine to me.", "Sometimes I think I was born brainless.", "I feel like that myself sometimes." };
-	
+
 	//standard emotional luagh response
 	static String[] lol = { "lol", "ouo", "ono", "omg", "ctfu", "im dying", "aye fam"};
 
 
+	//standard something
+	static String[] st = { "well then", "great way to use the english language i suppose", "hmm", "whats up?", "ok then", "if you say so"};
 }
