@@ -14,12 +14,18 @@ import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.AsyncPlayerChatEvent;
+import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
+import eminem.events.chatEvents;
 
 
 
 public class main extends JavaPlugin implements Listener {
+	public static Plugin instance;
+
+
+
 	public static File configFolder;
 	public static File configFile;
 
@@ -30,6 +36,8 @@ public class main extends JavaPlugin implements Listener {
 		getLogger().info("hey");
 		registerConfigs();
 		registerEvents();
+
+		instance = this;
 	}
 
 	@Override
@@ -41,14 +49,14 @@ public class main extends JavaPlugin implements Listener {
 		PluginManager pm = getServer().getPluginManager();
 		pm.registerEvents(this, this);
 		// pm.registerEvents(new chatStuff(),this);
+		pm.registerEvents(new chatEvents(),this);
 		
 
 	}
 
 	@EventHandler
 	public void chatAI(AsyncPlayerChatEvent e) {
-		String namerino = format(configConfig.getString("Turing.main.chat"))
-				+ format(configConfig.getString("Turing.main.name"));
+		String namerino = format(configConfig.getString("Turing.main.chat")) + format(configConfig.getString("Turing.main.name"));
 		String message = e.getMessage();
 		// Player player = e.getPlayer();
 		long bleh = 20;
@@ -500,7 +508,7 @@ public class main extends JavaPlugin implements Listener {
 				}, 20);
 				break;
 			}
-			if (message.contains("scrub") || message.contains("noob") || message.contains("")
+			if (message.contains("scrub") || message.contains("noob")
 					|| message.contains("shit") || message.contains("dick") || message.contains("idiot")
 					|| message.contains("dumbass")) {
 				Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
