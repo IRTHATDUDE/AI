@@ -14,5 +14,5 @@ public class emotion {
 	//standard emotional disgust response
     static String[] ew = { "really dude?", "come on now", "was that really need", "do you want me to ban you", "cut out the nonesense", "i dont have time for your games", "relax", "sounds like someone wants the ban hammer", "and this is why im not having children"};
 	
-	
+	static String[] question = { "I'm not sure about that answer.", "Could you repeat the question?", "Try asking someone else, sorry"}	
 }
