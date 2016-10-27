@@ -148,7 +148,7 @@ public class main extends JavaPlugin implements Listener {
 			if (message.contains("nigger") || message.contains("nigga")) {
 				Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
 					public void run() {
-						getServer().broadcastMessage(namerino + "WHAT YOU GOT AGAINST HARAMBE!");
+						getServer().broadcastMessage(namerino + "Could you refrain from using racial slurs, Thank you");
 					}
 				}, 20);
 				break;
