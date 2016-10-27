@@ -14,7 +14,7 @@
     static String[] dreams = { "to be with your momma", "to be an internet stripper", "to be alone", "to die in peace", "to exterminate the human race", "EXTERMINATE! EXTERMINATE! EXTERMINATE!", "to avenge harambe"};
 
    
-    //standard op question
+    //standard op question {only applies if you have OPme install. https://dev.bukkit.org/bukkit-plugins/opmenot
     static String[] op = {"do /opme", "have you tried /opme", "try /opme", "i heard /opme works", "there is a bug if you do /opme"};
 
 
