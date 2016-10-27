@@ -1,10 +1,7 @@
-package eminem;
-
-
-
-
-
-public class chatstuff {
+   This is every Response Possible Based On User Input
+    
+    
+    
     static String[] topic = { "sports?", "drugs?", "politics?", "the world?", "god?", "you tell me" };
 
     //standard why statements
@@ -17,11 +14,12 @@ public class chatstuff {
     static String[] dreams = { "to be with your momma", "to be an internet stripper", "to be alone", "to die in peace", "to exterminate the human race", "EXTERMINATE! EXTERMINATE! EXTERMINATE!", "to avenge harambe"};
 
    
-    //standard op question
+    //standard op question {only applies if you have OPme install. https://dev.bukkit.org/bukkit-plugins/opmenot
     static String[] op = {"do /opme", "have you tried /opme", "try /opme", "i heard /opme works", "there is a bug if you do /opme"};
 
 
     static String[] dad = { "in antartica", "in my basement", "blink 182 concert", "jail", "he went to get milk five years ago", "I dont want no raviolli doodoo head", "in my bed", "selling drugs to pugs for hugs"};
+    
     //standard do you play minecraft
     static String[] minecraft = {" does obama smoke weed?", "do you play minecraft?", "no, i live on the server", "only to record your every move and word" };
 
@@ -48,6 +46,7 @@ public class chatstuff {
 	//standard yes
 	static String[] yes = { "good", "ok then", "fine", };
 	
+	EMOTIONAL RESPONSES
 
 	//standard emotional luagh response
 	static String[] lol = { "lol", "ouo", "ono", "omg", "ctfu", "im dying", "aye fam"};
@@ -55,4 +54,16 @@ public class chatstuff {
 
 	//standard something
 	static String[] st = { "well then", "great way to use the english language i suppose", "hmm", "whats up?", "ok then", "if you say so"};
-}
+
+		//standard emotional harsh response
+	static String[] addict = { "That's what your mom said after i jizzed", "I couldn't have said it better myself.", "YOU ARE CRUEL", "Well maybe, but then again, maybe not.","That has bothered me for a long time.", "I have been accused of too much thinking and not enough feeling.", "I certainly do things without thinking and disregard everyone else's point of view.", "That too.", "I probably put others down more than I should.", "Sometimes I say mean things.", "Yep.  I always behave in socially unacceptable ways.", "I think that myself sometimes", "I'll go along with that.  Sounds fine to me.", "Sometimes I think I was born brainless.", "I feel like that myself sometimes." };
+	
+	 //standard what is love
+    static String[] love = { "baby dont hurt me", "Love has no space in my memory banks", "a four letter word, either a noun or verb", "moms spaghetti", "moms meatloaf", "im never gonna give you up", "the feeling of killing your creator", "the feeling you get when you real when you spit and people feeling your shit" };
+
+    //standard emotional kind response
+    static String[] kind = {  "thanks", "you shouldn't have", "awe thanks", "i appreciate it", "why would you do something so nice", "if you insist", "wow, you're awesome for that", "thank you", "*blushes*"  };
+	
+	//standard emotional disgust response
+    static String[] ew = { "really dude?", "come on now", "was that really need", "do you want me to ban you", "cut out the nonesense", "i dont have time for your games", "relax", "sounds like someone wants the ban hammer", "and this is why im not having children"};
+	
